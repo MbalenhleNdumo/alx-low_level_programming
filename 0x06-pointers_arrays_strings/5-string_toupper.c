@@ -11,6 +11,7 @@
 char *string_toupper(char *)
 
 {
+
 	int index = 0;
 
 	while (str[index])
@@ -20,4 +21,5 @@ char *string_toupper(char *)
 		index++;
 	}
 	return (str);
+
 }
